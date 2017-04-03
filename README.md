@@ -1,9 +1,9 @@
 # DeviceJS
 
-Júlio Cesar Trindade: 20161011110018 / GitHub Nickname: JulioTrindade;<br/>
+Júlio Cesar Trindade: 20161011110018 / GitHub Nickname: JulioTrindade;
 Wesley Giovane: 20141011110166 / GitHub Nickname:WesleyGiovane;<br/>
 Júlio Cesar Fernandes: 20141011110344 / GitHub Nickname: JulioFernandesSantos;<br/>
-Linguagem: DeviceJS<br/>
+Linguagem: DeviceJS
 
 <h2> Resumo </h2><br/>
 
@@ -14,3 +14,9 @@ Linguagem: DeviceJS<br/>
 -> Data de criação:
 
 -> Principal mantenedor: KeystoneJS
+
+<h2> Instalação e uso </h2>
+
+-> Descrever de forma resumida como instalar, demonstrando os comandos (ver Markdown sobre códigos)
+
+-> Descrever de forma resumida como usar (compilar e executar), demonstrando os comandos (ver Markdown sobre códigos)
