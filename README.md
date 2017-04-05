@@ -11,9 +11,9 @@ Linguagem: DeviceJS
 
 -> Paradgima da linguagem: Procedural, visto que segue o conceito de um estado e de ações que manipulam esse estado, nele encontramos procedimentos que servem de mecanismos de estruturação. Podemos denominá-lo procedural por incluir procedimentos para estruturação.
 
--> Data de criação:
+-> Data de criação: ano de 2015.
 
--> Principal mantenedor: KeystoneJS
+-> Principal mantenedor: KeystoneJS.
 
 <h2> Instalação e uso </h2>
 
