@@ -17,12 +17,12 @@ Linguagem: DeviceJS
 
 <h2> Instalação e uso </h2>
 
--> Como instalar? Demonstrando os comandos.
+-> Como instalar?
 
    ~ O DeviceJS é um sistema distribuído;<br/>
    ~ O DeviceJS pode distribuir um script em qualquer retransmissão capaz de executar o DeviceJS run-time. 
 
--> Como usar (compilar e executar)? Demonstrando os comandos.
+-> Como usar?
 
   ~ Pode ser usado: em um banco de dados JSON distribuído em tempo real, que atualiza diretamente para o tempo de execução do DeviceJS. Em API baseada em objetos, baseada basicamente em base2 e Prototype. Em ganchos de serviço para drivers de dispositivo nativos para protocolos como: 6loWPAN, Z-Wave e ZigBee. Em um Catálogo que permite que dispositivos de todos os tipos sejam categorizados e cruzados em uma variedade de maneiras, e em APIs para lidar com JavaScript complexo, assíncrono, semelhante no conceito de  async.js.
   
@@ -34,8 +34,8 @@ Linguagem: DeviceJS
    ~ transformar toda a iluminação em um local vermelho:<br/>
    dev$.byLocation("kitchen").setColor("red");
    
-    ~ Mudar todos os dispositivos marcados como uma "luz" para desligado:<br/>
-    dev$.byTag('light').setOff();
+   ~ Mudar todos os dispositivos marcados como uma "luz" para desligado:<br/>
+   dev$.byTag('light').setOff();
 
 ~ Eventos: <br/>
    ~ pop-up de alerta de caixa de diálogo em um 'clique':<br/>
