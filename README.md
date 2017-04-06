@@ -19,7 +19,7 @@ Linguagem: DeviceJS
 
 -> Como instalar? Demonstrando os comandos.
 
-   ~ O DeviceJS é um sistema distribuído;
+   ~ O DeviceJS é um sistema distribuído;<br/>
    ~ O DeviceJS pode distribuir um script em qualquer retransmissão capaz de executar o DeviceJS run-time. 
 
 -> Como usar (compilar e executar)? Demonstrando os comandos.
