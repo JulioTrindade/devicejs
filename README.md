@@ -30,14 +30,14 @@ Linguagem: DeviceJS
    
   -> Comandos: 
    
-~ Seletores: <br/>
+~ Seletores: <br/><br/>
    ~ transformar toda a iluminação em um local vermelho:<br/>
    dev$.byLocation("kitchen").setColor("red");
    
    ~ Mudar todos os dispositivos marcados como uma "luz" para desligado:<br/>
    dev$.byTag('light').setOff();
 
-~ Eventos: <br/>
+~ Eventos: <br/><br/>
    ~ pop-up de alerta de caixa de diálogo em um 'clique':<br/>
    dev$.byDeviceAlias('hallway-sensor').trigger('motion',function(){dev$.byLocation('hallway').setOn();});
   
