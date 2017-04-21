@@ -7,9 +7,6 @@ Linguagem: DeviceJS
 
 ## Resumo
 
-**Observações MINORA**
-Veja link na página da disciplina e use a sintaxe Markdown!!!
-
 **Propósito da linguagem**: 
 
 O DeviceJS tem como objetivo permitir que desenvolvedores familiarizados com bibliotecas de desenvolvimento da Web apliquem algo que aconteça dinamicamente no mundo físico.
@@ -37,7 +34,7 @@ dd de mês de 2015
 **Comandos:**
    
 **Seletores:**
-- Transformar toda a iluminação em um local vermelho:
+- Transformar toda a iluminação em um local para vermelho:
 ```js
   dev$.byLocation("kitchen").setColor("red");
 ```
@@ -50,7 +47,7 @@ dd de mês de 2015
 ```js
   dev$.byDeviceAlias('hallway-sensor').trigger('motion',function(){dev$.byLocation('hallway').setOn();});
 ```
-**Sensor de movimento acionado de acordo com a movimentação no ambiente:**
+- Sensor de movimento acionado de acordo com a movimentação no ambiente:**
 ```js
   function func1(){dev$.byTag('light').setOn();}dev$.trigger('motion', func1);
 ```
