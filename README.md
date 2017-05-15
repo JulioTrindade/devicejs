@@ -26,7 +26,7 @@ dd de mês de 2015
 **Como instalar?**
 - O DeviceJS é um sistema distribuído;
 - O DeviceJS pode distribuir um script em qualquer retransmissão capaz de executar o DeviceJS run-time;
-- Executa-se o seguinte comando para instalar o devicejs:
+- Execute o comando a seguir na linha de comando:
 ```js
   $ npm install devicejs
 ```
