@@ -7,15 +7,15 @@ Linguagem: DeviceJS
 
 ## Resumo
 
-**Propósito da linguagem**: 
+**Propósito da linguagem:** 
 
 O DeviceJS tem como objetivo permitir que desenvolvedores familiarizados com bibliotecas de desenvolvimento da Web apliquem algo que aconteça dinamicamente no mundo físico.
 
-**Paradgima da linguagem**: 
+**Paradgima da linguagem:** 
 
 Procedural, visto que segue o conceito de um estado e de ações que manipulam esse estado, nele encontramos procedimentos que servem de mecanismos de estruturação. Podemos denominá-lo procedural por incluir procedimentos para estruturação.
 
-**Data de criação**:
+**Data de criação:**
 dd de mês de 2015
 
 **Principal mantenedor**: 
@@ -25,8 +25,11 @@ dd de mês de 2015
 
 **Como instalar?**
 - O DeviceJS é um sistema distribuído;
-- O DeviceJS pode distribuir um script em qualquer retransmissão capaz de executar o DeviceJS run-time. 
-
+- O DeviceJS pode distribuir um script em qualquer retransmissão capaz de executar o DeviceJS run-time;
+- Executa-se o seguinte comando para instalar o devicejs:
+```js
+  $ npm install devicejs
+```
 **Como usar?**
 - Pode ser usado: em um banco de dados JSON distribuído em tempo real, que atualiza diretamente para o tempo de execução do DeviceJS. Em API baseada em objetos, baseada basicamente em base2 e Prototype. Em ganchos de serviço para drivers de dispositivo nativos para protocolos como: 6loWPAN, Z-Wave e ZigBee. Em um Catálogo que permite que dispositivos de todos os tipos sejam categorizados e cruzados em uma variedade de maneiras, e em APIs para lidar com JavaScript complexo, assíncrono, semelhante no conceito de  async.js.
 - Execução: Os scripts e aplicativos escritos para DeviceJS podem executar e consequentemente controlar dispositivos em muitos locais. 
@@ -51,3 +54,6 @@ dd de mês de 2015
 ```js
   function func1(){dev$.byTag('light').setOn();}dev$.trigger('motion', func1);
 ```
+## Sintaxe básica
+
+**Variáveis e constantes:**
