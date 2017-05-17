@@ -59,7 +59,7 @@ dd de mês de 2015
 **Variáveis e constantes:**
 Como o devicejs é uma linguagem que deriva do javascript, suas sintaxes são semelhantes
 - Variáveis: Podem ser declaradas de 3 formas
-<br/>Variáveis globais ou locais:
+Variáveis globais ou locais:
 ```js
   var x = 42;
 ```
