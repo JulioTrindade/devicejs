@@ -80,6 +80,15 @@ A constante não altera seu valor:
   a = 10
   console.log(a); //retorno: 3
 ```
-- Operadores relacionais e lógicos:
+- Operadores relacionais:
+'<': Menor que, '>': Maior que, '<=': Menor ou igual, '>=': Maior ou igual, '==': Igual, '!=': Diferente (não igual).
+- Operadores lógicos:
+AND (&&), OR (||) e NOT (!).
 - Operadores aritméticos:
-Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) como seus operandos e retornam um único valor númerico. Os operadores aritméticos padrão são os de soma (+), subtração (-), multiplicação (*) e divisão (/). Além desses que são comuns a outras linguagens de programação, o javascript disponibiliza as operações de: resto da divisão (%), Incremento (++), Decremento (--), Negação (-), Adição (+), exponenciação (**).
+Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) como seus operandos e retornam um único valor númerico. Os operadores aritméticos padrão são os de soma (+), subtração (-), multiplicação (*) e divisão (/). Além desses que são comuns a outras linguagens de programação, o devicejs disponibiliza as operações de: resto da divisão (%), Incremento (++), Decremento (--), Negação (-), Adição (+) e exponenciação (**).
+- Estruturas de controle condicional:
+- Use ''if' para especificar um bloco de código a ser executado, se uma condição especificada for verdadeira
+- Use 'else' para especificar um bloco de código a ser executado, se a mesma condição for falsa
+- Use 'else if' para especificar uma nova condição para testar, se a primeira condição for falsa
+- Use 'switch' para especificar muitos blocos alternativos de código a serem executados
+
