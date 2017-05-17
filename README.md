@@ -57,3 +57,27 @@ dd de mês de 2015
 ## Sintaxe básica
 
 **Variáveis e constantes:**
+Como o devicejs é uma linguagem que deriva do javascript, suas sintaxes são semelhantes
+- Variáveis: Podem ser declaradas de 3 formas
+Variáveis globais ou locais:
+```js
+  var x = 42;
+```
+Apenas variáveis globais:
+```js
+  x = 34;
+```
+Para declarar uma variável local de escopo de bloco:
+```js
+  let z = 92;
+```
+- Constantes: 
+```js
+  const a = 3;
+```
+A constante não altera seu valor:
+```js
+  const a = 3;
+  a = 10
+  console.log(a); //retorno: 3
+```
