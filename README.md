@@ -59,7 +59,6 @@ dd de mês de 2015
 **Variáveis e constantes:**
 Como o devicejs é uma linguagem que deriva do javascript, suas sintaxes são semelhantes
 - Variáveis: Podem ser declaradas de 3 formas
-Variáveis globais ou locais:
 ```js
   var x = 42;
 ```
@@ -81,3 +80,6 @@ A constante não altera seu valor:
   a = 10
   console.log(a); //retorno: 3
 ```
+- Operadores relacionais e lógicos:
+- Operadores aritméticos:
+Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) como seus operandos e retornam um único valor númerico. Os operadores aritméticos padrão são os de soma (+), subtração (-), multiplicação (*) e divisão (/). Além desses que são comuns a outras linguagens de programação, o javascript disponibiliza as operações de: resto da divisão (%), Incremento (++), Decremento (--), Negação (-), Adição (+), exponenciação (**).
