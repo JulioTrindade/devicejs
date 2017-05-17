@@ -50,7 +50,7 @@ dd de mês de 2015
 ```js
   dev$.byDeviceAlias('hallway-sensor').trigger('motion',function(){dev$.byLocation('hallway').setOn();});
 ```
-- Sensor de movimento acionado de acordo com a movimentação no ambiente:**
+- Sensor de movimento acionado de acordo com a movimentação no ambiente:
 ```js
   function func1(){dev$.byTag('light').setOn();}dev$.trigger('motion', func1);
 ```
@@ -58,8 +58,8 @@ dd de mês de 2015
 
 **Variáveis e constantes:**
 Como o devicejs é uma linguagem que deriva do javascript, suas sintaxes são semelhantes
-- Variáveis: Podem ser declaradas de 3 formas**
-Variáveis globais ou locais:
+- Variáveis: Podem ser declaradas de 3 formas
+<br/>Variáveis globais ou locais:
 ```js
   var x = 42;
 ```
