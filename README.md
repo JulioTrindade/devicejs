@@ -146,7 +146,7 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
   console.log('pessoa2 é ' + pessoa2.nome); // envia "pessoa2 é Bob" ao log
 ```
 - Método
-  - Uma ação do objeto, como ligar, desligar, frear se estivemos representando um veículo, por exemplo. 
+  - Uma ação do objeto, como ligar, desligar, frear se estivemos representando um veículo, por exemplo.
   ```js
   var Pessoa = function (genero) {
     this.genero = genero;
@@ -163,62 +163,4 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
 
   // Chamando o método dizerOla em Pessoa .
   pessoa1.dizerOla(); // hello
-  ```
-- Construtor
-  - Um método chamado assim que um novo exemplar do objeto for criado. Ele geralmente tem o mesmo nome da classe que o contém.
-  ```js
-  var Pessoa = function () {
-    console.log("exemplar criado"); 
-  }
-
-  var pessoa1 = new Pessoa();
-  var pessoa2 = new Pessoa();
 ```
-- Herança
-  - Uma classe pode herdar características de outra classe.
-  ```js 
-  // define a classe Pessoa
-  function Pessoa() {}
-
-  Pessoa.prototype.caminhar = function(){
-    alert ('Estou Caminhando!');
-  };
-  Pessoa.prototype.dizOi = function(){
-    alert ('Oi!');
-  };
-
-  // define a classe  Estudante
-  function Estudante() {
-    // Chama o método pai
-    Pessoa.call(this);
-  }
-
-  // herda de Pessoa
-  Estudante.prototype = new Pessoa();
-
-  // corrige o ponteiro construtor, que aponta para Pessoa
-  Estudante.prototype.constructor = Estudante;
- 
-  // adiciona o método dizOi
-  Estudante.prototype.dizOi = function(){
-    alert('Oi, eu sou estudante');
-  }
-
-  // adiciona o método dizTchau 
-  Estudante.prototype.dizTchau = function(){
-    alert('tchau');
-  }
-
-  var estudante1 = new Estudante();
-  estudante1.dizOi();
-  estudante1.caminhar();
-  estudante1.dizTchau();
-
-  // checa a herança
-  alert(estudante1 instanceof Pessoa); // true 
-  alert(estudante1 instanceof Estudante); // true
-  ```
-- Polimorfismo
-  - Diferentes classes podem definir o mesmo método ou propriedade.
-- Sobrecarga
-
