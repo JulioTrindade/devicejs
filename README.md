@@ -122,6 +122,25 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
   }
 ```
 ## Sintaxe OO
+- Classe
+  - Define as características do objeto. Uma classe é uma definição modelo das propriedades e métodos de um objeto.
+- Objeto
+  - Um exemplar de uma classe.
+- Atributo
+  - Uma característica do objeto, como cor, modelo, fabricante se estivemos representando um veículo, por exemplo.
+- Método
+  - Uma ação do objeto, como ligar, desligar, frear se estivemos representando um veículo, por exemplo. É uma subrotina ou função associada a uma classe.
+- Construtor
+  - Um método chamado assim que um novo exemplar do objeto for criado. Ele geralmente tem o mesmo nome da classe que o contém.
+- Herança
+  - Uma classe pode herdar características de outra classe.
+- Encapsulamento
+  - Uma maneira de agrupar os dados e os métodos que usam os dados.
+- Abstração
+  - A conjunção de herança complexa, métodos, propriedades de um objeto devem refletir adequadamente um modelo da realidade.
+- Polimorfismo
+  - Diferentes classes podem definir o mesmo método ou propriedade.
+
 ```js
 class Quadrado extends Poligono {
   constructor(comprimento) {
