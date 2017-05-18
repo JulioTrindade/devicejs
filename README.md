@@ -134,7 +134,7 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
   
 - Atributo
   - Uma característica do objeto, como idade, altura, nome, caso estivéssemos tratando de pessoas.
-  ``` js
+  ```js
   var Pessoa = function(nome)
   {
     this.nome = nome;
@@ -147,7 +147,7 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
 ```
 - Método
   - Uma ação do objeto, como ligar, desligar, frear se estivemos representando um veículo, por exemplo. 
-  ``` js
+  ```js
   var Pessoa = function (genero) {
     this.genero = genero;
     alert('Pessoa instanciada');
@@ -163,7 +163,7 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
 
   // Chamando o método dizerOla em Pessoa .
   pessoa1.dizerOla(); // hello
-```
+  ```
 - Construtor
   - Um método chamado assim que um novo exemplar do objeto for criado. Ele geralmente tem o mesmo nome da classe que o contém.
   ```js
