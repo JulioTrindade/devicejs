@@ -147,10 +147,9 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
   pessoa1.dizerOla(); // hello
 ```
 
-  
 - Atributo
   - Uma característica do objeto, como idade, altura, nome, caso estivéssemos tratando de pessoas.
-  ```js
+```js
   var Pessoa = function(nome)
   {
     this.nome = nome;
