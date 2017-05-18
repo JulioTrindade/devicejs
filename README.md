@@ -132,7 +132,7 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
 - Objeto
   - Um exemplar de uma classe.
   
-  - Método
+- Método
   - Uma ação do objeto, como ligar, desligar, frear se estivemos representando um veículo, por exemplo.
   ```js
   var Pessoa = function (genero) {
