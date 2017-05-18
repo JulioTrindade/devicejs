@@ -145,6 +145,7 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
   console.log('pessoa1 é ' + pessoa1.nome); // envia "pessoa1 é Alice" ao log
   console.log('pessoa2 é ' + pessoa2.nome); // envia "pessoa2 é Bob" ao log
 ```
+
 - Método
   - Uma ação do objeto, como ligar, desligar, frear se estivemos representando um veículo, por exemplo.
   ```js
