@@ -124,61 +124,100 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
 ## Sintaxe OO
 - Classe
   - Define as características do objeto. Uma classe é uma definição modelo das propriedades e métodos de um objeto.
+    ```js
+    var Pessoa = function () {};
+    ```
 - Objeto
   - Um exemplar de uma classe.
+  
 - Atributo
-  - Uma característica do objeto, como cor, modelo, fabricante se estivemos representando um veículo, por exemplo.
+  - Uma característica do objeto, como idade, altura, nome, caso estivéssemos tratando de pessoas.
+  ``` js
+  var Pessoa = function(nome)
+  {
+  this.nome = nome;
+  };
+  var pessoa1 = new Pessoa('Alice');
+  var pessoa2 = new Pessoa('Bob');
+
+// mostrando as propriedades nome dos objetos
+console.log('pessoa1 é ' + pessoa1.nome); // envia "pessoa1 é Alice" ao log
+console.log('pessoa2 é ' + pessoa2.nome); // envia "pessoa2 é Bob" ao log
+```
 - Método
   - Uma ação do objeto, como ligar, desligar, frear se estivemos representando um veículo, por exemplo. É uma subrotina ou função associada a uma classe.
+  ``` js
+  var Pessoa = function (genero) {
+  this.genero = genero;
+  alert('Pessoa instanciada');
+}
+
+Pessoa.prototype.dizerOla = function()
+{
+  alert ('hello');
+};
+
+var pessoa1 = new Pessoa('Masculino');
+var pessoa2 = new Pessoa('Feminino');
+
+// Chamando o método dizerOla em Pessoa .
+pessoa1.dizerOla(); // hello
+```
 - Construtor
   - Um método chamado assim que um novo exemplar do objeto for criado. Ele geralmente tem o mesmo nome da classe que o contém.
+  ```js
+  var Pessoa = function () {
+  console.log("exemplar criado"); 
+  }
+
+  var pessoa1 = new Pessoa();
+  var pessoa2 = new Pessoa();
+```
 - Herança
   - Uma classe pode herdar características de outra classe.
-- Encapsulamento
-  - Uma maneira de agrupar os dados e os métodos que usam os dados.
-- Abstração
-  - A conjunção de herança complexa, métodos, propriedades de um objeto devem refletir adequadamente um modelo da realidade.
+  ```js 
+  // define a classe Pessoa
+function Pessoa() {}
+
+Pessoa.prototype.caminhar = function(){
+  alert ('Estou Caminhando!');
+};
+Pessoa.prototype.dizOi = function(){
+  alert ('Oi!');
+};
+
+// define a classe  Estudante
+function Estudante() {
+  // Chama o método pai
+  Pessoa.call(this);
+}
+
+// herda de Pessoa
+Estudante.prototype = new Pessoa();
+
+// corrige o ponteiro construtor, que aponta para Pessoa
+Estudante.prototype.constructor = Estudante;
+ 
+// adiciona o método dizOi
+Estudante.prototype.dizOi = function(){
+  alert('Oi, eu sou estudante');
+}
+
+// adiciona o método dizTchau 
+Estudante.prototype.dizTchau = function(){
+  alert('tchau');
+}
+
+var estudante1 = new Estudante();
+estudante1.dizOi();
+estudante1.caminhar();
+estudante1.dizTchau();
+
+// checa a herança
+alert(estudante1 instanceof Pessoa); // true 
+alert(estudante1 instanceof Estudante); // true
+  ```
 - Polimorfismo
   - Diferentes classes podem definir o mesmo método ou propriedade.
+- Sobrecarga
 
-```js
-class Quadrado extends Poligono {
-  constructor(comprimento) {
-    // super chama o construtor da classe pai que vai atribuir comprimento para
-    // os atributos comprimento e altura herdados pela nossa classe filha Quadrado  
-    super(comprimento, comprimento);
-    // Nas classes filhas, super() deve ser chamado antes de usar o this. Sem ele 
-    // vai ocorrer um erro de referência. O this agora se refere a classe filha Quadrado
-    this.nome = 'Quadrado';
-  }
-
-  // os atributos a seguir são herdados da classe pai Poligono: altura, comprimento e area.
-
-  get area() {
-    return this.altura * this.comprimento;
-  }
-
-  set area(valor) {
-    this.area = valor;
-  } 
-}
-```
-```js
-- Classe
-Define as características do objeto. Uma classe é uma definição modelo das propriedades e métodos de um objeto.
-Objeto
-Um exemplar de uma classe.
-Atributo
-Uma característica do objeto, como cor, modelo, fabricante se estivemos representando um veículo, por exemplo.
-Método
-Uma ação do objeto, como ligar, desligar, frear se estivemos representando um veículo, por exemplo. É uma subrotina ou função associada a uma classe.
-Construtor
-Um método chamado assim que um novo exemplar do objeto for criado. Ele geralmente tem o mesmo nome da classe que o contém.
-Herança
-Uma classe pode herdar características de outra classe.
-Encapsulamento
-Uma maneira de agrupar os dados e os métodos que usam os dados.
-Abstração
-A conjunção de herança complexa, métodos, propriedades de um objeto devem refletir adequadamente um modelo da realidade.
-Polimorfismo
-Diferentes classes podem definir o mesmo método ou propriedade.
