@@ -96,3 +96,24 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
 - Use 'else if' para especificar uma nova condição para testar, se a primeira condição for falsa
 - Use 'switch' para especificar muitos blocos alternativos de código a serem executados
 
+- Estruturas de repetição:
+- 'for' : Repetições através de um bloco de código com um número determinado de vezes;
+- 'for / in' : Repetições através das propriedades de um objeto;
+- 'while' : passa por um bloco de código enquanto uma condição especificada for verdadeira;
+- 'Do / while' : também executa repetidamente através de um bloco de código enquanto uma condição especificada é verdadeira.
+
+- Vetores, matrizes e strings:
+- Vetores: 'var frutas = ["Melancia", "Melão", "Goiaba"];'
+- Matrizes: O devicejs não suporta a criação de matrizes, mas podem ser feitos vetores de vetores.
+- strings: 'var nomeMateria = "POS";'
+
+- Funções:
+- Uma função JavaScript é um bloco de código projetado para executar uma tarefa específica. 
+- Uma função JavaScript é executada quando "algo" a chama.
+- Exemplo: 
+```js
+  function multiplica(num1, num2) {
+    return num1 * num2; // a função retorna o produto de num1 e num2
+  }
+```
+
