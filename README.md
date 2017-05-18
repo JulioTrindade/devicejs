@@ -140,11 +140,6 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
     alert('Pessoa instanciada');
   }
 
-  Pessoa.prototype.dizerOla = function()
-  {
-    alert ('hello');
-  };
-
   var pessoa1 = new Pessoa('Masculino');
   var pessoa2 = new Pessoa('Feminino');
 
@@ -167,3 +162,45 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
   console.log('pessoa2 é ' + pessoa2.nome); // envia "pessoa2 é Bob" ao log
 ```
 
+- Construtor
+  - Um método chamado assim que um novo exemplar do objeto for criado. Ele geralmente tem o mesmo nome da classe que o contém.
+  ```js
+  var Pessoa = function () {
+    console.log("exemplar criado"); 
+  }
+
+  var pessoa1 = new Pessoa();
+  var pessoa2 = new Pessoa();
+```
+- Herança
+  - Uma classe pode herdar características de outra classe.
+  ```js 
+  // define a classe Pessoa
+  function Pessoa() {}
+
+  // define a classe  Estudante
+  function Estudante() {
+    // Chama o método pai
+    Pessoa.call(this);
+  }
+
+  // herda de Pessoa
+  Estudante.prototype = new Pessoa();
+
+  // corrige o ponteiro construtor, que aponta para Pessoa
+  Estudante.prototype.constructor = Estudante;
+  ```
+- Polimorfismo
+  - Diferentes classes podem definir o mesmo método ou propriedade.
+- Sobrecarga
+  -  Permite a existência de vários métodos de mesmo nome, porém com assinaturas levemente diferentes, ou seja, variando no número , tipo de argumentos , no valor de retorno e até variáveis diferentes. Ficará a cargo do compilador escolher de acordo com as listas de argumentos os procedimentos ou métodos a serem executados. 
+
+## Sintaxe Funcional
+- Assim como na orientação a objetos a menor parte de um sistema é um objeto, você pode atribuir objetos a variáveis, pode passá-los por parâmetro e ter métodos retornando objetos, na programação funcional, a menor parte do seu sistema é uma função. Isso implica que você pode atribuir funções a variáveis, pode passá-las por parâmetro e mesmo fazer com que uma função retorne outra função. 
+  - Exemplo: High order functions
+```js
+   $("button.helloWorld")
+   .click(function() {
+      alert("Hello World!");
+   });
+```
