@@ -91,25 +91,30 @@ AND (&&), OR (||) e NOT (!).
 Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) como seus operandos e retornam um único valor númerico. Os operadores aritméticos padrão são os de soma (+), subtração (-), multiplicação (*) e divisão (/). Além desses que são comuns a outras linguagens de programação, o devicejs disponibiliza as operações de: resto da divisão (%), Incremento (++), Decremento (--), Negação (-), Adição (+) e exponenciação (**).
 
 - Estruturas de controle condicional:
-- Use ''if' para especificar um bloco de código a ser executado, se uma condição especificada for verdadeira
-- Use 'else' para especificar um bloco de código a ser executado, se a mesma condição for falsa
-- Use 'else if' para especificar uma nova condição para testar, se a primeira condição for falsa
-- Use 'switch' para especificar muitos blocos alternativos de código a serem executados
+  - Use ''if' para especificar um bloco de código a ser executado, se uma condição especificada for verdadeira
+  - Use 'else' para especificar um bloco de código a ser executado, se a mesma condição for falsa
+  - Use 'else if' para especificar uma nova condição para testar, se a primeira condição for falsa
+  - Use 'switch' para especificar muitos blocos alternativos de código a serem executados
 
 - Estruturas de repetição:
-- 'for' : Repetições através de um bloco de código com um número determinado de vezes;
-- 'for / in' : Repetições através das propriedades de um objeto;
-- 'while' : passa por um bloco de código enquanto uma condição especificada for verdadeira;
-- 'Do / while' : também executa repetidamente através de um bloco de código enquanto uma condição especificada é verdadeira.
+  - 'for' : Repetições através de um bloco de código com um número determinado de vezes;
+  - 'for / in' : Repetições através das propriedades de um objeto;
+  - 'while' : passa por um bloco de código enquanto uma condição especificada for verdadeira;
+  - 'Do / while' : também executa repetidamente através de um bloco de código enquanto uma condição especificada é verdadeira.
 
 - Vetores, matrizes e strings:
-- Vetores: 'var frutas = ["Melancia", "Melão", "Goiaba"];'
-- Matrizes: O devicejs não suporta a criação de matrizes, mas podem ser feitos vetores de vetores.
-- strings: 'var nomeMateria = "POS";'
-
+  - Vetores: 
+```js
+  var frutas = ["Melancia", "Melão", "Goiaba"];
+```
+  - Matrizes: O devicejs não suporta a criação de matrizes, mas podem ser feitos vetores de vetores.
+  - strings: 
+  ```js
+  var nomeMateria = "POS";
+```
 - Funções:
-- Uma função JavaScript é um bloco de código projetado para executar uma tarefa específica. 
-- Uma função JavaScript é executada quando "algo" a chama.
+  - Uma função JavaScript é um bloco de código projetado para executar uma tarefa específica. 
+  - Uma função JavaScript é executada quando "algo" a chama.
 - Exemplo: 
 ```js
   function multiplica(num1, num2) {
@@ -117,3 +122,44 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
   }
 ```
 ## Sintaxe OO
+```js
+class Quadrado extends Poligono {
+  constructor(comprimento) {
+    // super chama o construtor da classe pai que vai atribuir comprimento para
+    // os atributos comprimento e altura herdados pela nossa classe filha Quadrado  
+    super(comprimento, comprimento);
+    // Nas classes filhas, super() deve ser chamado antes de usar o this. Sem ele 
+    // vai ocorrer um erro de referência. O this agora se refere a classe filha Quadrado
+    this.nome = 'Quadrado';
+  }
+
+  // os atributos a seguir são herdados da classe pai Poligono: altura, comprimento e area.
+
+  get area() {
+    return this.altura * this.comprimento;
+  }
+
+  set area(valor) {
+    this.area = valor;
+  } 
+}
+```
+```js
+- Classe
+Define as características do objeto. Uma classe é uma definição modelo das propriedades e métodos de um objeto.
+Objeto
+Um exemplar de uma classe.
+Atributo
+Uma característica do objeto, como cor, modelo, fabricante se estivemos representando um veículo, por exemplo.
+Método
+Uma ação do objeto, como ligar, desligar, frear se estivemos representando um veículo, por exemplo. É uma subrotina ou função associada a uma classe.
+Construtor
+Um método chamado assim que um novo exemplar do objeto for criado. Ele geralmente tem o mesmo nome da classe que o contém.
+Herança
+Uma classe pode herdar características de outra classe.
+Encapsulamento
+Uma maneira de agrupar os dados e os métodos que usam os dados.
+Abstração
+A conjunção de herança complexa, métodos, propriedades de um objeto devem refletir adequadamente um modelo da realidade.
+Polimorfismo
+Diferentes classes podem definir o mesmo método ou propriedade.
