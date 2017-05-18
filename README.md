@@ -116,4 +116,4 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
     return num1 * num2; // a função retorna o produto de num1 e num2
   }
 ```
-
+## Sintaxe OO
