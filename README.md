@@ -132,21 +132,7 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
 - Objeto
   - Um exemplar de uma classe.
   
-- Atributo
-  - Uma característica do objeto, como idade, altura, nome, caso estivéssemos tratando de pessoas.
-  ```js
-  var Pessoa = function(nome)
-  {
-    this.nome = nome;
-  };
-  var pessoa1 = new Pessoa('Alice');
-  var pessoa2 = new Pessoa('Bob');
-
-  console.log('pessoa1 é ' + pessoa1.nome); // envia "pessoa1 é Alice" ao log
-  console.log('pessoa2 é ' + pessoa2.nome); // envia "pessoa2 é Bob" ao log
-```
-
-- Método
+  - Método
   - Uma ação do objeto, como ligar, desligar, frear se estivemos representando um veículo, por exemplo.
   ```js
   var Pessoa = function (genero) {
@@ -165,3 +151,19 @@ Operadores aritméticos tomam valores numéricos (sejam literais ou variáveis) 
   // Chamando o método dizerOla em Pessoa .
   pessoa1.dizerOla(); // hello
 ```
+
+  
+- Atributo
+  - Uma característica do objeto, como idade, altura, nome, caso estivéssemos tratando de pessoas.
+  ```js
+  var Pessoa = function(nome)
+  {
+    this.nome = nome;
+  };
+  var pessoa1 = new Pessoa('Alice');
+  var pessoa2 = new Pessoa('Bob');
+
+  console.log('pessoa1 é ' + pessoa1.nome); // envia "pessoa1 é Alice" ao log
+  console.log('pessoa2 é ' + pessoa2.nome); // envia "pessoa2 é Bob" ao log
+```
+
