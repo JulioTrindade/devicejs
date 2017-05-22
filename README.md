@@ -11,7 +11,7 @@ Linguagem: DeviceJS
 
 O DeviceJS tem como objetivo permitir que desenvolvedores familiarizados com bibliotecas de desenvolvimento da Web apliquem algo que aconteça dinamicamente no mundo físico.
 
-**Paradgima da linguagem:** 
+**Paradigma da linguagem:** 
 
 Procedural, visto que segue o conceito de um estado e de ações que manipulam esse estado, nele encontramos procedimentos que servem de mecanismos de estruturação. Podemos denominá-lo procedural por incluir procedimentos para estruturação.
 
