@@ -126,7 +126,5 @@ Isso funcionará em praticamente todos os navegadores.
 - If (se);
 
 `if ( condição ) {
-
  ação;
- 
 }`
