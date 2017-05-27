@@ -6,7 +6,7 @@ Júlio Cesar Fernandes: 20141011110344 / GitHub Nickname: jcesar732;<br/>
 
 ## Resumo
 
-**Propósito da linguagem:**  
+*Propósito da linguagem:*
 
   JQuery é uma biblioteca de JavaScript, seu principal objetivo é ajudar os desenvolvedores na produção do código, dando a eles o foco da lógica e facilitando quanto as ferramentas do desenvolvimento. O JQuery reune uma quantidade enorme de funções que facilitam a vida de quem desenvolve em JavaScript. Seu lema é "write less, do more." 
   
