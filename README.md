@@ -162,3 +162,7 @@ if ( condição ) {
  // Ação final se nenhuma condição for verdadeira
 }
 ```
+
+### Estruturas de repetição
+
+- 
