@@ -64,8 +64,8 @@ Dezembro de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.
 
   // jQuery methods go here...  });
    
-- Exemplo:
-- // JavaScript "puro"
++ Exemplo:
+   JavaScript "puro"
 - var cabecalho = document.getElementById("cabecalho");
 
 - if (cabecalho.attachEvent) {
