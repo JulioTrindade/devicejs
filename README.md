@@ -46,39 +46,14 @@ Dezembro de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.
 
 ## Sintaxe Básica
 
-- Um $ sinal para definir / jQuery acesso
-- A(selector)para "consulta (ou encontrar)" elementos HTML
-- Um jQuery action () a ser executada com o element(s)
+A sintaxe jQuery é feita sob medida para selecionar elementos HTML e executar alguma ação sobre o(s) elemento(s).
 
-- $(this).hide() - esconde o elemento atual.
+`$ ( seletor ). Ação ()`
 
-- $("p").hide() - oculta todas <p> elementos.
+- Usa-se '$' para acessar jQuery;
+- Usa-se '()' para consultar elementos HTML;
+- Logo após é indicada uma ação jQuery a ser executada no(s) elemento(s).
 
-- $(".test").hide() - esconde todos os elementos com class="test" .
-
-- $("#test").hide() - esconde o elemento com id="test"
-
-- $(document).ready(function(){
-
-  // jQuery methods go here...  });
-  
-  -$(function(){
-
-  // jQuery methods go here...  });
-   
-** Exemplo: **
-   JavaScript "puro"
-   var cabecalho = document.getElementById("cabecalho");
-
-   if (cabecalho.attachEvent) {
-   cabecalho.attachEvent("onclick", function (event) {
-    alert("Você clicou no cabeçalho, usuário do IE!");
-  });} 
-  else if (cabecalho.addEventListener) {
-  cabecalho.addEventListener("click", function (event) {
-    alert("Você clicou no cabeçalho!")
-  }, false); }
-
- // jQuery
- $("#cabecalho").click(function (event) {
-  alert("Você clicou no cabeçalho!"); });
+#### Exemplos:
+`$ (". Test"). Hide ()`
+`$ ("# Test"). Hide ()`
