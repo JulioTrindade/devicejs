@@ -91,16 +91,19 @@ if(a == 1 && b == 2){
 ```
 
 - OU (||);
-
-`if(a == 1 || b == 2){
+```
+if(a == 1 || b == 2){
   //condição ocorre caso uma das expressões forem verdadeiras;
-}`
+}
+```
 
 - NOT (!);
 
-`if !(a == 1){
+```
+if !(a == 1){
   //condição ocorre caso 'a' for diferente de 1;
-}`
+}
+```
 
 ### Operadores aritméticos
 
@@ -126,21 +129,26 @@ if(a == 1 && b == 2){
 
 - If;
 
-`if ( condição ) {
+```
+if ( condição ) {
  ação;
-}`
+}
+```
 
 - If … else;
 
-`if ( chuva ) {
+```
+if ( chuva ) {
  alert('ficar em casa');
 } else {
  alert('jogar futebol');
-}`
+}
+```
 
 - Else if;
 
-`if ( condição ) {
+```
+if ( condição ) {
  // Ação
 } else if ( outra condição ) {
  // Ação
@@ -152,5 +160,5 @@ if(a == 1 && b == 2){
  // Ação
 } else {
  // Ação final se nenhuma condição for verdadeira
-}`
-
+}
+```
