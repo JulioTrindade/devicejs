@@ -13,7 +13,7 @@ Júlio Cesar Fernandes: 20141011110344 / GitHub Nickname: jcesar732;<br/>
 Utiliza vários paradigmas. Principalmente o imperativo ou procedural, mas também orientado a objetos e funcional.
 
 **Data de criação:**  
-Dezembro de 2006 no BarCamp de Nova York, por A [John Resig](https://en.wikipedia.org/wiki/John_Resig "").
+Dezembro de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.org/wiki/John_Resig "").
 
-**Principal mantenedor:**
-A [jQuery Foundation](https://jquery.org/team/ "").
+**Principal mantenedor:**  
+[jQuery Foundation](https://jquery.org/team/ "").
