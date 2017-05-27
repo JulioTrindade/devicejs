@@ -54,8 +54,71 @@ A sintaxe jQuery é feita sob medida para selecionar elementos HTML e executar a
 - Usa-se '()' para consultar elementos HTML;
 - Logo após é indicada uma ação jQuery a ser executada no(s) elemento(s).
 
-**Exemplos:**
+##### Exemplos
 
 `$ (". Test"). Hide ()`
 
 `$ ("# Test"). Hide ()`
+
+**Variáveis**
+
+`var nome = ‘John Resig’`
+
+`var idade  = 33`
+
+**Constantes**
+
+A versão mais recente do JavaScript, tem uma noção de const:
+
+`const CONSTANTE = "VALOR";`
+
+Isso funcionará em praticamente todos os navegadores.
+
+**Operadores relacionais**
+
+- Igual (==);
+- Não igual (!=);
+- Maior que (>);
+- Maior ou igual que (>=);
+- Menor que (<);
+- Menor ou igual que (<=);
+
+**Operadores Lógicos**
+
+- E (&&);
+
+`if(a == 1 && b == 2){
+  //condição só ocorre caso as duas expressões forem verdadeiras;
+}`
+
+- OU (||);
+
+`if(a == 1 || b == 2){
+  //condição ocorre caso uma das expressões forem verdadeiras;
+}`
+
+- NOT (!);
+
+`if !(a == 1){
+  //condição ocorre caso a for diferente de 1;
+}`
+
+**Operadores aritméticos**
+
+- Resto da divisão (%);
+
+`var a = 29 % 10 //a = 9`
+
+- Incremento (++);
+
+`var a = 0; a++ //a = 1, equivale a 'a = a + 1'`
+
+- Decremento (--);
+
+`var a = 1; a--// a = 0, equivale a 'a = a - 1'`
+
+- Operador de exponenciação (**): versão experimental;
+
+`var a = 2 ** 3// a = 8`
+
+- Além dessas, existem os operadores mais basicos: adição(+), subtração(-), multiplicação(*) e divisão(/);
