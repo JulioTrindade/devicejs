@@ -98,7 +98,7 @@ Isso funcionará em praticamente todos os navegadores.
 - NOT (!);
 
 `if !(a == 1){
-  //condição ocorre caso a for diferente de 1;
+  //condição ocorre caso 'a' for diferente de 1;
 }`
 
 ### Operadores aritméticos
@@ -125,10 +125,31 @@ Isso funcionará em praticamente todos os navegadores.
 
 - If;
 
-```if ( condição ) {
+`if ( condição ) {
  ação;
-}```
+}`
 
 - If … else;
 
+`if ( chuva ) {
+ alert('ficar em casa');
+} else {
+ alert('jogar futebol');
+}`
+
+- Else if;
+
+`if ( condição ) {
+ // Ação
+} else if ( outra condição ) {
+ // Ação
+} else if ( outra condição ) {
+ // Ação
+} else if ( outra condição ) {
+ // Ação
+} else if ( quantas condições quiser ) {
+ // Ação
+} else {
+ // Ação final se nenhuma condição for verdadeira
+}`
 
