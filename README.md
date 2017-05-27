@@ -123,8 +123,12 @@ Isso funcionará em praticamente todos os navegadores.
 
 ### Estruturas de controle condicional
 
-- If (se);
+- If;
 
-`if ( condição ) {
+```if ( condição ) {
  ação;
-}`
+}```
+
+- If … else;
+
+
