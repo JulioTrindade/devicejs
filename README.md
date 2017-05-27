@@ -28,12 +28,16 @@ Dezembro de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.
 
 ## Instalação e uso
 
-- O jQuery pode ser instalado usando uma CDN:
+- O jQuery pode ser instalado usando uma CDN;
 
 `<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>`
 
 - Salvando-o como arquivo no seu diretório;
 
-- Usando o NPM:
+- Usando o [npm](https://www.npmjs.com/ "");
 
 `npm install jquery`
+
+- Usando [Bower](https://bower.io/ "");
+
+``
