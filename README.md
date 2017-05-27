@@ -84,10 +84,11 @@ Isso funcionará em praticamente todos os navegadores.
 ### Operadores Lógicos
 
 - E (&&);
-
-`if(a == 1 && b == 2){
+```
+if(a == 1 && b == 2){
   //condição só ocorre caso as duas expressões forem verdadeiras;
-}`
+}
+```
 
 - OU (||);
 
