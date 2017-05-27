@@ -31,3 +31,9 @@ Dezembro de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.
 - O jQuery pode ser instalado usando uma CDN:
 
 `<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>`
+
+- Salvando-o como arquivo no seu diretório;
+
+- Usando o NPM:
+
+`npm install jquery`
