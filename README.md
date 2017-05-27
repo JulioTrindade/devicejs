@@ -120,3 +120,13 @@ Isso funcionará em praticamente todos os navegadores.
 `var a = 2 ** 3// a = 8`
 
 - Além dessas, existem os operadores mais basicos: adição(+), subtração(-), multiplicação(*) e divisão(/);
+
+### Estruturas de controle condicional
+
+- If (se);
+
+`if ( condição ) {
+
+ ação;
+ 
+}`
