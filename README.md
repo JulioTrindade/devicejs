@@ -40,4 +40,5 @@ Dezembro de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.
 
 - Usando [Bower](https://bower.io/ "");
 
-``
+`bower install jquery`
+
