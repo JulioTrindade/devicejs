@@ -23,6 +23,10 @@ Dezembro de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.
 
 **Principal mantenedor:**  
 
-[jQuery Foundation](https://jquery.org/team/ "").  
+[jQuery Foundation](https://jquery.org/team/ ""). 
 
 
+## Instalação e uso
+
+- O jQuery pode ser instalado usando uma CDN:
+`<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>`
