@@ -54,6 +54,7 @@ A sintaxe jQuery é feita sob medida para selecionar elementos HTML e executar a
 - Usa-se '()' para consultar elementos HTML;
 - Logo após é indicada uma ação jQuery a ser executada no(s) elemento(s).
 
-#### Exemplos:
+**Exemplos:**
 `$ (". Test"). Hide ()`
+
 `$ ("# Test"). Hide ()`
