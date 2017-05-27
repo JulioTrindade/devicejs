@@ -69,3 +69,7 @@ Dezembro de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.
 
   // jQuery methods go here...  });
   
+  -$(function(){
+
+  // jQuery methods go here...  });
+  
