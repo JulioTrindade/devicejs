@@ -8,7 +8,7 @@ Júlio Cesar Fernandes: 20141011110344 / GitHub Nickname: jcesar732;<br/>
 
 **Propósito da linguagem:**  
 
-  JQuery é um framework, seu principal objetivo é ajudar os desenvolvedores na produção do código, dando a eles o foco da lógica e facilitando quanto as ferramentas do desenvolvimento. O JQuery reune uma quantidade enorme de funções que facilitam a vida de quem desenvolve em JavaScript. Seu lema é "write less, do more." 
+  JQuery uma biblioteca de JavaScript, seu principal objetivo é ajudar os desenvolvedores na produção do código, dando a eles o foco da lógica e facilitando quanto as ferramentas do desenvolvimento. O JQuery reune uma quantidade enorme de funções que facilitam a vida de quem desenvolve em JavaScript. Seu lema é "write less, do more." 
   
   
 **Paradgima da linguagem:**
@@ -32,7 +32,9 @@ Dezembro de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.
 
 `<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>`
 
-- Salvando-o como arquivo no seu diretório;
+- Salvando-o como arquivo no seu diretório e chamando-o no seu código;
+
+`<script src="jquery-3.2.1.min.js"></script>`
 
 - Usando o [npm](https://www.npmjs.com/ "");
 
