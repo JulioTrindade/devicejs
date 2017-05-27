@@ -42,3 +42,6 @@ Dezembro de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.
 
 `bower install jquery`
 
+## Comandos:
+ -  seletorjQuery.attr.(atributo)  – $(‘h1’).attr(‘title’) //Retorna o valor do atributo do seletor. No exemplo acima, retorna o title  do elemento h1. Se o atributo não foi definido, o retorno será undefined.
+   
