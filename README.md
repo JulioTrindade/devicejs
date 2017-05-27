@@ -43,13 +43,6 @@ Dezembro de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.
 `bower install jquery`
 
 ## Sintaxe Básica
- -  seletorjQuery.attr.(atributo)  – $(‘h1’).attr(‘title’) //Retorna o valor do atributo do seletor. No exemplo acima, retorna o title  do elemento h1. Se o atributo não foi definido, o retorno será undefined.
- - seletorjQuery.attr({atributo:valor}) – $(‘h1’).attr({‘title:”novo titulo” ‘})
- - seletorjQuery.addClass(nome_da_classe_css) – $(‘h1’).addClass(‘nova_classe’)
- - seletorjQuery.hasClass(nome_da_classe_css) – $(‘h1’).hasClass(‘nova_classe’) //Irá Retorna um valor VERDADEIRO ou FALSO 
-- seletorjQuery.html() – $(‘div’).html() // Acessar conteúdo página html
-- seletorJquery.clone() – $(‘p’).clone() //irá criar um clone de um elemento jquery
-- Sintaxe básica é: $(selector).action()
 
 - Um $ sinal para definir / jQuery acesso
 - A(selector)para "consulta (ou encontrar)" elementos HTML
