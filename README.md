@@ -64,12 +64,12 @@ Dezembro de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.
 
   // jQuery methods go here...  });
    
-+ Exemplo:
+** Exemplo: **
    JavaScript "puro"
-- var cabecalho = document.getElementById("cabecalho");
+   var cabecalho = document.getElementById("cabecalho");
 
-- if (cabecalho.attachEvent) {
- - cabecalho.attachEvent("onclick", function (event) {
+   if (cabecalho.attachEvent) {
+   cabecalho.attachEvent("onclick", function (event) {
     alert("Você clicou no cabeçalho, usuário do IE!");
   });} 
   else if (cabecalho.addEventListener) {
