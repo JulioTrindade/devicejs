@@ -16,4 +16,4 @@ Utiliza v√°rios paradigmas. Principalmente o imperativo ou procedural, mas tamb√
 Dezembro de 2006 no BarCamp de Nova York, por John Resig.
 
 **Principal mantenedor:**
-A [link](http://example.com "Title").
+A [jQuery Foundation](https://jquery.org/team/ "").
