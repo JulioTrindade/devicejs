@@ -48,6 +48,6 @@ Dezembro de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.
  - seletorjQuery.addClass(nome_da_classe_css) – $(‘h1’).addClass(‘nova_classe’)
  - seletorjQuery.hasClass(nome_da_classe_css) – $(‘h1’).hasClass(‘nova_classe’) //Irá Retorna um valor VERDADEIRO ou FALSO 
 - seletorjQuery.html() – $(‘div’).html() // Acessar conteúdo página html
-- seletorJquery.replaceWith(‘conteúdo’) – $(‘p’).replaceWith(‘<h1>Olá</h1>’) //acessar o conteudo do seletor jquery e vai adicionar um novo conteúdo.
+ - seletorJquery.replaceWith(‘conteúdo’) – $(‘p’).replaceWith(‘<h1>Olá</h1>’) //acessar o conteudo do seletor jquery e vai adicionar um novo conteúdo.
 
    
