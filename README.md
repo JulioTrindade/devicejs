@@ -6,22 +6,22 @@ Júlio Cesar Fernandes: 20141011110344 / GitHub Nickname: jcesar732;<br/>
 
 ## Resumo
 
-### Propósito da linguagem:
+#### Propósito da linguagem:
 
   JQuery é uma biblioteca de JavaScript, seu principal objetivo é ajudar os desenvolvedores na produção do código, dando a eles o foco da lógica e facilitando quanto as ferramentas do desenvolvimento. O JQuery reune uma quantidade enorme de funções que facilitam a vida de quem desenvolve em JavaScript. Seu lema é "write less, do more." 
   
   
-### Paradgima da linguagem:
+#### Paradgima da linguagem:
 
 Utiliza vários paradigmas. Principalmente o imperativo ou procedural, mas também orientado a objetos e funcional.
 
 
-**Data de criação:**  
+#### Data de criação:  
 
 Dezembro de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.org/wiki/John_Resig ""). 
 
 
-**Principal mantenedor:**  
+#### Principal mantenedor:
 
 [jQuery Foundation](https://jquery.org/team/ ""). 
 
@@ -58,13 +58,13 @@ A sintaxe jQuery é feita sob medida para selecionar elementos HTML e executar a
 
 `$ ("# Test"). Hide ()`
 
-**Variáveis**
+#### Variáveis
 
 `var nome = ‘John Resig’`
 
 `var idade  = 33`
 
-**Constantes**
+#### Constantes
 
 A versão mais recente do JavaScript, tem uma noção de const:
 
@@ -72,7 +72,7 @@ A versão mais recente do JavaScript, tem uma noção de const:
 
 Isso funcionará em praticamente todos os navegadores.
 
-**Operadores relacionais**
+#### Operadores relacionais
 
 - Igual (==);
 - Não igual (!=);
@@ -81,7 +81,7 @@ Isso funcionará em praticamente todos os navegadores.
 - Menor que (<);
 - Menor ou igual que (<=);
 
-**Operadores Lógicos**
+#### Operadores Lógicos
 
 - E (&&);
 
@@ -101,7 +101,7 @@ Isso funcionará em praticamente todos os navegadores.
   //condição ocorre caso a for diferente de 1;
 }`
 
-**Operadores aritméticos**
+#### Operadores aritméticos
 
 - Resto da divisão (%);
 
