@@ -247,3 +247,4 @@ $(document).ready(function() {
 });
 
 ```
+- $(document) é um objeto jQuery. O $() é, na verdade, uma função disfarçada; ela transforma o document em um objeto jQuery.
