@@ -248,3 +248,5 @@ $(document).ready(function() {
 
 ```
 - $(document) é um objeto jQuery. O $() é, na verdade, uma função disfarçada; ela transforma o document em um objeto jQuery.
+- .ready() é um tipo de função; você pode vê-lo como uma forma de ajudante que executa o código dentro dos parênteses assim que o documento HTML estiver pronto.
+- function(){} é a ação que .ready() vai desempenhar assim que o documento HTML estiver carregado. (No exemplo acima, o lugar onde está o Do Something (faça alguma coisa) é onde as ações devem ficar).
