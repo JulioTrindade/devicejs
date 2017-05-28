@@ -123,7 +123,7 @@ if !(a == 1){
 
 `var a = 2 ** 3// a = 8`
 
-- Além dessas, existem os operadores mais basicos: adição(+), subtração(-), multiplicação(*) e divisão(/);
+- Além dessas, existem os operadores básicos: adição(+), subtração(-), multiplicação(*) e divisão(/);
 
 ### Estruturas de controle condicional
 
@@ -163,6 +163,79 @@ if ( condição ) {
 }
 ```
 
+- Switch;
+
+```
+switch(expressão)
+{
+case valor1:
+//código 1
+break;
+case valor2:
+//código 2
+break;
+default:
+//código padrão
+break;
+}
+```
+
 ### Estruturas de repetição
 
-- 
+- While;
+
+```
+var count = 0;
+while ( count <= 10 ) {
+ document.write( count );
+ count++;
+} 
+```
+
+- Do while;
+
+```
+var count = 11;
+do {
+ document.write( count );
+ count++;
+} while ( count <= 10 )
+```
+
+- For;
+
+```
+for ( var i = 0; i <= 10; i++ ) {
+ document.write( i );
+} 
+```
+
+- Break e continue;
+
+### Vetores, matrizes e strings
+
+#### Vetores:
+
+`var cars = ["Saab", "Volvo", "BMW"];`
+
+#### Matrizes:
+
+- São feitas com vetores referenciando outros vetores;
+
+```
+var matriz[][]=[[1,2],[3,4]]
+
+//document.write(matriz[0][1])
+//2
+```
+
+#### Strings:
+
+- Usada para armazenar uma cadeia de caracteres, pode ser usado aspas duplas ou simples;
+
+`var nome = "John Resig"`
+
+`var nome = 'John Resig'`
+
+### Funções
+
