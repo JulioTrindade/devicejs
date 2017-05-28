@@ -239,5 +239,12 @@ var matriz[][]=[[1,2],[3,4]]
 
 ### Funções
 
-Funções, Parte I: $(document).ready
+-  Parte I: $(document).ready
 Funções são a unidade básica de ação em jQuery. O principal ponto de entrada da maioria das aplicações em jQuery é um bloco de código que se parece com isso:
+
+```
+$(document).ready(function() {
+    Do Something
+});
+
+```
