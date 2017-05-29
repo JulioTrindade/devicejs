@@ -13,7 +13,7 @@ Júlio Cesar Fernandes: 20141011110344 / GitHub Nickname: jcesar732;<br/>
   
 ### Paradgima da linguagem:
 
-Utiliza vários paradigmas. Principalmente o imperativo ou procedural, mas também orientado a objetos e funcional.
+Utiliza vários paradigmas. Principalmente o imperativo ou procedural, mas também funcional.
 
 
 ### Data de criação:  
@@ -250,3 +250,105 @@ $(document).ready(function() {
 - $(document) é um objeto jQuery. O $() é, na verdade, uma função disfarçada; ela transforma o document em um objeto jQuery.
 - .ready() é um tipo de função; você pode vê-lo como uma forma de ajudante que executa o código dentro dos parênteses assim que o documento HTML estiver pronto.
 - function(){} é a ação que .ready() vai desempenhar assim que o documento HTML estiver carregado. (No exemplo acima, o lugar onde está o Do Something (faça alguma coisa) é onde as ações devem ficar).
+
+## Sintaxe OO
+
+- Não encontramos referência a sintaxe OO exclusiva do jQuery, logo aplica-se a sintaxe básica do JavaScript.
+
+### Classes
+
+```
+function Aluno () {
+ var nome;
+ var idade;
+ var curso;
+}
+```
+
+### Objetos
+
+```
+var Aluno = new Aluno();
+
+Aluno.nome("John Resig");
+Aluno.idade("33");
+Aluno.curso("INFOWEB");
+```
+
+### Atributos
+
+- São elementos que definem a estrutura de uma classe.
+- Ex: nome, idade e curso do aluno
+
+### Métodos
+
+- Os métodos determinam o comportamento dos objetos de uma classe.
+
+```
+function Aluno () {
+ var nome;
+ var idade;
+ var curso;
+ this.mostraDados = function () {
+    alert("Nome do aluno: " + nome + "\nIdade: " + idade + "\nCurso: " + curso);
+  }
+}
+```
+
+### Construtores
+
+- Definem a estrutura padrão de um objeto de determinada classe.
+
+```
+function carro(modelo, ano, preco) {
+    this.modelo = modelo;
+    this.ano = ano;
+    this.preco = preco;
+}
+```
+
+
+### Herança
+
+```
+function Conta() {
+    this.saldo = 0;
+    this.deposita = function(valor) {
+        this.saldo += valor;
+    };
+} 
+
+// caso for uma conta do tipo poupança, necessitaremos de multiplicar o valor depositado pela taxa.
+
+function ContaPoupanca() {
+    this.atualiza = function(taxa) {
+        this.saldo += this.saldo * taxa;
+    };
+}
+
+ContaPoupanca.prototype = new Conta();
+ContaPoupanca.prototype.constructor = ContaPoupanca;
+
+// assim "copiamos" tudo o que há em Conta para dentro de ContaPoupanca
+```
+
+### Polimorfismo
+
+- Definimos Polimorfismo como um princípio a partir do qual as classes derivadas de uma única classe base são capazes de invocar os métodos que, embora apresentem a mesma assinatura, comportam-se de maneira diferente para cada uma das classes derivadas.
+
+### Sobrecarga
+
+- A sobrecarga (overload) consiste em permitir, dentro da mesma classe, mais de um método com o mesmo nome. Entretanto, eles necessariamente devem possuir argumentos diferentes para funcionar.
+
+### Visibilidades
+
+- Public;
+- Private;
+- Protected.
+
+### Exceções
+
+- Try: testa um bloco de código visando erros;
+- Catch: manipula erros;
+- Throw: permite que você personalize um erro;
+
