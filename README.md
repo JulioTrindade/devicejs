@@ -352,3 +352,50 @@ ContaPoupanca.prototype.constructor = ContaPoupanca;
 - Catch: manipula erros;
 - Throw: permite que você personalize um erro;
 
+## Sintaxe Funcional
+
+### o jQuery é uma biblioteca do JavaScript que adiciona funções para manipulação do html e css. Dentre elas:
+
+- hide(): Esconder
+
+```
+$("#hide").click(function(){
+    $("p").hide();
+});
+```
+
+- show(): Exibir
+
+```
+$("#show").click(function(){
+    $("p").show();
+});
+```
+
+- fadeIn() e fadeOut (): aparecer / desaparecer gradualmente
+
+```
+$("button").click(function(){
+    $("#div1").fadeIn();
+    $("#div2").fadeIn("slow");
+    $("#div3").fadeIn(3000);
+});
+```
+
+```
+$("button").click(function(){
+    $("#div1").fadeOut();
+    $("#div2").fadeOut("slow");
+    $("#div3").fadeOut(3000);
+});
+```
+
+- animate (): criar animações personalizadas
+
+```
+$("button").click(function(){
+    $("div").animate({left: '250px'});
+}); 
+```
+
+- Mais em: [W3](https://www.w3schools.com/jquery/ "").
