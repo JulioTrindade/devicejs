@@ -13,7 +13,7 @@ Júlio Cesar Fernandes: 20141011110344 / GitHub Nickname: jcesar732;<br/>
   
 ### Paradgima da linguagem:
 
-Utiliza vários paradigmas. Principalmente o imperativo ou procedural, mas também funcional.
+Utiliza vários paradigmas. Principalmente o funcional, como também o procedural.
 
 
 ### Data de criação:  
