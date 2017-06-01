@@ -218,4 +218,4 @@ $("button").click(function(){
 
 
 
-- Mais em: [W3](https://www.w3schools.com/jquery/ "").
+- Mais em: [W3](https://www.w3schools.com/jquery/ "") e [jQuery API](http://api.jquery.com/ "").
