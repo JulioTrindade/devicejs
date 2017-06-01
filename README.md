@@ -58,6 +58,26 @@ A sintaxe jQuery é feita sob medida para selecionar elementos HTML e executar a
 
 `$ ("# Test"). Hide ()`
 
+- `$ (.classe)` para selecionar uma classe;
+
+- `$ (#id)` para selecionar um id;
+
+- `$ ("*")` seleciona todos os elementos.
+
+### Eventos
+
+- São ações do visitante que uma página da web pode responder.Exemplos: Mover mouse sobre o elemento, selecionar um botão, clicar em um elemento, entre outros.
+
+`click()`
+
+`dblclick()`
+
+`mouseenter()`
+
+`mouseleave()`
+
+`hover()`
+
 ### Funções
 
 - Funções são a unidade básica de ação em jQuery. O principal ponto de entrada da maioria das aplicações em jQuery é um bloco de código semelhante ao que se apresenta abaixo:
@@ -77,7 +97,7 @@ $(document).ready(function() {
 
 ### o jQuery é uma biblioteca do JavaScript que adiciona funções para manipulação do html e css. Dentre elas:
 
-- hide(): Esconder
+- `hide()`: Esconder
 
 ```
 $("#hide").click(function(){
@@ -85,7 +105,7 @@ $("#hide").click(function(){
 });
 ```
 
-- show(): Exibir
+- `show()`: Exibir
 
 ```
 $("#show").click(function(){
@@ -93,7 +113,9 @@ $("#show").click(function(){
 });
 ```
 
-- fadeIn() e fadeOut (): aparecer / desaparecer gradualmente
+- `toggle()`: alterna entre `hide()` e `show()`
+
+- `fadeIn()` e `fadeOut ()`: aparecer / desaparecer (gradualmente)
 
 ```
 $("button").click(function(){
@@ -111,12 +133,89 @@ $("button").click(function(){
 });
 ```
 
-- animate (): criar animações personalizadas
+- `fadeToggle ()`: alterna entre `fadeIn()` e `fadeOut()`
+
+- `animate ()`: criar animações personalizadas
 
 ```
 $("button").click(function(){
     $("div").animate({left: '250px'});
 }); 
 ```
+
+- `slideDown ()`/ `slideUp ()`: deslizar um elemento para baixo/cima
+
+```
+$("#flip").click(function(){
+    $("#panel").slideDown();
+});
+```
+
+- `slideToggle()`: alterna entre `slideDown ()` e `slideUp ()`
+
+- `stop ()`: interrompe uma animação ou efeito antes que ele seja concluído
+
+```
+$("#stop").click(function(){
+    $("#panel").stop();
+});
+```
+
+- Uma parte muito importante do jQuery é a possibilidade de manipular o DOM. No jQuery existem métodos DOM que facilitam o acesso e manipulação de elementos e atributos.
+
+- `Text ()`: Define ou retorna o conteúdo do texto dos elementos selecionados
+
+- `Html ()`: Define ou retorna o conteúdo dos elementos selecionados (incluindo marcação HTML)
+
+```
+$("#btn1").click(function(){
+    alert("Text: " + $("#test").text());
+});
+$("#btn2").click(function(){
+    alert("HTML: " + $("#test").html());
+});
+```
+
+Você pode também atribuir os valores
+
+```
+$("#btn1").click(function(){
+    $("#test1").text("Hello world!");
+});
+$("#btn2").click(function(){
+    $("#test2").html("<b>Hello world!</b>");
+});
+```
+
+- `AddClass ()`: Adiciona uma ou mais classes aos elementos selecionados
+
+```
+$("button").click(function(){
+    $("h1, h2, p").addClass("blue");
+    $("div").addClass("important");
+});
+```
+
+- `RemoveClass ()`: Remove uma ou mais classes dos elementos selecionados
+
+```
+$("button").click(function(){
+    $("h1, h2, p").removeClass("blue");
+});
+```
+
+- `ToggleClass ()`: Alterna entre adicionar / remover classes dos elementos selecionados
+
+```
+$("button").click(function(){
+    $("h1, h2, p").toggleClass("blue");
+});
+```
+
+- `Css ()`: Define ou retorna o atributo de estilo
+
+`$("p").css("background-color", "yellow");`
+
+
 
 - Mais em: [W3](https://www.w3schools.com/jquery/ "").
