@@ -18,7 +18,7 @@ Utiliza vários paradigmas. Principalmente o imperativo ou procedural, mas tamb�
 
 ### Data de criação:  
 
-Dezembro de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.org/wiki/John_Resig ""). 
+26 de agosto de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.org/wiki/John_Resig ""). 
 
 
 ### Principal mantenedor:
