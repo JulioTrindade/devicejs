@@ -78,6 +78,59 @@ A sintaxe jQuery é feita sob medida para selecionar elementos HTML e executar a
 
 `hover()`
 
+### Vantagens
+
+- Permitir uma maior compatibilidade de um mesmo código com diversos navegadores;
+
+- Traz uma sintaxe mais "fluida" nas tarefas mais comuns ao programador: selecionar um elemento do documento e alterar suas características.
+
+```
+// JavaScript "puro"
+var cabecalho = document.getElementById("cabecalho");
+
+if (cabecalho.attachEvent) {
+  cabecalho.attachEvent("onclick", function (event) {
+    alert("Você clicou no cabeçalho, usuário do IE!");
+  });
+} else if (cabecalho.addEventListener) {
+  cabecalho.addEventListener("click", function (event) {
+    alert("Você clicou no cabeçalho!")
+  }, false);
+}
+
+// jQuery
+$("#cabecalho").click(function (event) {
+  alert("Você clicou no cabeçalho!");
+});
+```
+
+`$("#cabecalho").css({"margin-top": "20px", "color": "#333333"}).addClass("selecionado");`
+
+### Seletores
+
+- Um dos maiores poderes do jQuery está na sua capacidade de selecionar elementos a partir de seletores CSS.
+
+`$('tbody td').hide();`
+
+`$('#form').css('background', 'black');`
+
+`$('.headline').hide();`
+
+`$('p').text('John Resig');`
+
+- Existem diversos seletores herdados do css que servem para selecionar elementos baseados no DOM.
+
+```
+$('div > p'); // <p>s imediatamente filhos de <div>
+$('p + p'); // <p>s imediatamente precedidos por outro <p>
+$('div:first-child'); // um elemento <div> que seja o primeiro filho
+$('div:last-child'); // um elemento <div> que seja o último filho
+$('div > *:first-child'); // um elemento que seja o primeiro filho direto de uma <div>
+$('div > *:last-child'); // um elemento que seja o ultimo filho direto de uma <div>
+$('div p:nth(0)'); // o primeiro elemento <p> filho de uma <div>
+$('div:empty'); // <div>s vazios
+```
+
 ### Funções
 
 - Funções são a unidade básica de ação em jQuery. O principal ponto de entrada da maioria das aplicações em jQuery é um bloco de código semelhante ao que se apresenta abaixo:
@@ -95,7 +148,7 @@ $(document).ready(function() {
 
 ## Sintaxe Funcional
 
-### o jQuery é uma biblioteca do JavaScript que adiciona funções para manipulação do html e css. Dentre elas:
+### O jQuery é uma biblioteca do JavaScript que adiciona funções para manipulação do html e css. Dentre elas:
 
 - `hide()`: Esconder
 
@@ -161,8 +214,6 @@ $("#stop").click(function(){
 });
 ```
 
-- Uma parte muito importante do jQuery é a possibilidade de manipular o DOM. No jQuery existem métodos DOM que facilitam o acesso e manipulação de elementos e atributos.
-
 - `Text ()`: Define ou retorna o conteúdo do texto dos elementos selecionados
 
 - `Html ()`: Define ou retorna o conteúdo dos elementos selecionados (incluindo marcação HTML)
@@ -176,7 +227,7 @@ $("#btn2").click(function(){
 });
 ```
 
-Você pode também atribuir os valores
+- Você pode também atribuir os valores
 
 ```
 $("#btn1").click(function(){
@@ -204,18 +255,19 @@ $("button").click(function(){
 });
 ```
 
-- `ToggleClass ()`: Alterna entre adicionar / remover classes dos elementos selecionados
-
-```
-$("button").click(function(){
-    $("h1, h2, p").toggleClass("blue");
-});
-```
-
 - `Css ()`: Define ou retorna o atributo de estilo
 
 `$("p").css("background-color", "yellow");`
+`$("a").first().css("background","#00f");//com o "first()" a propriedade é aplicada apenas para o 1° link do site`
 
+- `each ()`: facilita a iteração em elementos de um Array 
 
+```
+var pessoas = ["João", "José", "Maria", "Antônio"];
+
+$.each(pessoas, function(index, item) {
+  alert(item);
+})
+```
 
 - Mais em: [W3](https://www.w3schools.com/jquery/ "") e [jQuery API](http://api.jquery.com/ "").
