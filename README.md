@@ -258,6 +258,7 @@ $("button").click(function(){
 - `Css ()`: Define ou retorna o atributo de estilo
 
 `$("p").css("background-color", "yellow");`
+
 `$("a").first().css("background","#00f");//com o "first()" a propriedade é aplicada apenas para o 1° link do site`
 
 - `each ()`: facilita a iteração em elementos de um Array 
