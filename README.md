@@ -18,7 +18,7 @@ Utiliza vários paradigmas. Principalmente o funcional, como também o procedura
 
 ### Data de criação:  
 
-26 de agosto de 2006 no BarCamp de Nova York, por [John Resig](https://en.wikipedia.org/wiki/John_Resig ""). 
+26 de agosto de 2006 no [BarCamp](https://pt.wikipedia.org/wiki/BarCamp "") de Nova York, por [John Resig](https://en.wikipedia.org/wiki/John_Resig ""). 
 
 
 ### Principal mantenedor:
